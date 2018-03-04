@@ -1,0 +1,206 @@
+@font-face {
+  font-family: Weston;
+  src: url("../fonts/Weston.otf");
+}
+@font-face {
+  font-family: Human;
+  src: url("../fonts/Human.ttf");
+}
+@font-face {
+  font-family: SkolaSans-Light;
+  src: url("../fonts/SkolaSans-Light.otf");
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: #e9ebec;
+}
+#box-homepage
+{
+  position:absolute;
+  width: 50%;
+  height: 100%;
+  background-color: #fafafc;
+  font-family: "SkolaSans-Light";
+  letter-spacing: 3px;
+
+}
+.welcome-home .text-welcome
+{
+  position: fixed;
+  top: 30%;
+  left: 5%;
+}
+
+#box-homepage .menu-home
+{
+  float: right;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  background-color: #e7e7e7;
+}
+.menu-home .top-menu
+{
+  background-color: #e0e0e0; 
+}
+.top-menu .title-top
+{
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  font-family: "Weston";
+  font-size: 26px;
+}
+.top-menu .image-top
+{
+  float: right;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  font-family: "Weston";
+  font-size: 26px;
+}
+
+.top-menu .image-top button
+{
+  overflow: visible;
+  padding: 2px;
+  background-color: transparent;
+  border-collapse: collapse;
+  border: 2px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.menu-home .central-menu
+{
+  width: 35%;
+  height: 80px;
+
+  position: fixed;
+  top: 15%;
+  right: 7.5%;
+ 
+}
+
+.menu-home .central-menu ul
+{
+  font-size: 20px;
+  list-style: none;
+}
+.menu-home .central-menu ul li
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.menu-home .central-menu ul li a
+{
+  text-decoration: none;
+  color: #404040;
+}
+.menu-home .central-menu ul li a:hover
+{
+  color:#000;
+}
+
+#box-sign_in
+{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #e9ebec;
+  font-family: "SkolaSans-Light";
+  letter-spacing: 3px;
+}
+#box-sign_in .form-sign_in 
+{
+  text-align: center;
+  height: 40%;
+  padding-top: 10px;
+}
+input::-webkit-input-placeholder{
+  color: #6a6f77;
+}
+#box-sign_in h1
+{
+  padding-top: 5%;
+  text-align: center;
+}
+#box-sign_in .form-sign_in input,#box-editpage .form-edit input,#box-editpage .form-edit textarea 
+{
+  outline:none;
+  font-size:1.4em;
+  height:15%;
+  border-radius:4px;
+  border:1px solid #c8cccf;
+  color:#6a6f77;
+  text-align: center;
+}
+#box-editpage
+{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #e9ebec;
+  font-family: "SkolaSans-Light";
+  letter-spacing: 3px;
+}
+#box-editpage .form-edit 
+{
+ text-align: center;
+  height: 40%;
+  padding-top: 10px;
+}
+
+#box-editpage .form-edit input
+{
+  height:20%;
+}
+#box-editpage .form-edit textarea
+{
+  text-align: left;
+  height:150%;
+  width:80%;
+}
+#box-blogpage
+{
+  font-size:18px;
+  font-family: "SkolaSans-Light";
+}
+#box-blogpage .title-blog
+{
+  font-size: 25px;
+  padding-bottom:20px;
+}
+#box-blogpage .list-blog ul li
+{
+  list-style: none;
+}
+#box-blogpage .list-blog a
+{
+  text-decoration: none;
+  color: #404040;
+}
+#box-blogpage .list-blog a:hover
+{
+  color: #000;
+}
+
+
+.IMGchacha
+{
+  position: fixed;
+  top:3%;
+  left:2%;
+}
+
+
+
+
